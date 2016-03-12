@@ -67,5 +67,4 @@ if __name__ == '__main__':
         print("Creating DB: {0}".format(DB_FILE))
         create_db.create_tables(DB_FILE)
     register_user("mary", "mary")
-    print(get_character_stats("mary"))
     close_connection()
