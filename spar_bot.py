@@ -2,7 +2,7 @@ import discord
 from lib import db
 from lib.fight import Fight
 bot = discord.Client()
-bot.login("a.spilt.fish@gmail.com", "pandas")
+bot.login("a.spilt.fish@gmail.com", "")
 
 
 def please_register_first(channel, author):
